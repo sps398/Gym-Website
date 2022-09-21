@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dangrek', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    background: url('bg.jpg');
+    background-repeat: no-repeat;
+    height: 800px;
+    font-weight: bolder;
+    position: absolute;
+    top: 0;
+}
+
+.left {
+    /* border: 2px solid red; */
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 27px;
+    left: 25px;
+}
+
+.left img {
+    width: 92px;
+    height: 92px;
+    border-radius: 100px;
+    float: left;
+}
+
+.left .title {
+    float: left;
+    margin-left: 20px;
+    margin-top: 12px;
+    width: 20px;
+    font-size: 30px;
+}
+
+.mid {
+    /* border: 2px solid red; */
+    color: white;
+    margin: 50px auto;
+    width: 600px;
+    /* margin: 40px; */
+    height: 40px;
+}
+
+.mid ul {
+    margin: 10px auto;
+    /* width: 1000px; */
+}
+
+.mid li {
+    list-style: none;
+    float: left;
+    margin: auto 40px;
+    /* padding: 10px; */
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+a:hover,
+a.active {
+    color: grey;
+    text-decoration: underline;
+}
+
+.right {
+    /* border: 2px solid red; */
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 43px;
+    right: 60px;
+}
+
+.btn {
+    font-family: 'Dangrek', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: wheat;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    background-color: rgb(152, 56, 23);
+}
+
+.container {
+    width: 30%;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 30px;
+}
+
+h3 {
+    margin-left: 135px;
+    color: white;
+    width: 400px;
+}
+
+.container input {
+    font-family: 'Dangrek', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin: 10px auto;
+    width: 400px;
+    margin: 6px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: rgb(215, 184, 184);
+}
+
+.container .btn {
+    font-family: 'Dangrek', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    width: 431px;
+    border-radius: 40px;
+    margin: 10px auto;
+}
+
+.footer {
+    background-color: rgb(19, 3, 3);
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
